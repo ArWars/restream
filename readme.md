@@ -29,10 +29,6 @@ Este sistema esta creado para poder restremear desde tu OBS a twitch, facebook, 
     ls
     wget https://raw.githubusercontent.com/JasonGiedymin/nginx-init-ubuntu/master/nginx -O /etc/init.d/nginx
     chmod +x /etc/init.d/nginx
-
-    wget https://raw.githubusercontent.com/JasonGiedymin/nginx-init-ubuntu/master/nginx -O /usr/sbin/nginx
-    chmod +x /usr/sbin/nginx
-
     update-rc.d nginx defaults 
     apt-get install software-properties-common 
     apt-get install ffmpeg
