@@ -14,7 +14,7 @@ Este sistema esta creado para poder restremear desde tu OBS a twitch, facebook, 
 1. Copie y pege en la consola
 
     ```sh
-    apt-get install libpcre3 libpcre3-dev make gcc libssl-dev libnginx-mod-rtmp
+    apt-get install -y libpcre3 libpcre3-dev make gcc libssl-dev libnginx-mod-rtmp
     cd ~
     wget http://nginx.org/download/nginx-1.12.2.tar.gz
     wget https://github.com/arut/nginx-rtmp-module/archive/master.tar.gz
@@ -30,11 +30,11 @@ Este sistema esta creado para poder restremear desde tu OBS a twitch, facebook, 
     wget https://raw.githubusercontent.com/JasonGiedymin/nginx-init-ubuntu/master/nginx -O /etc/init.d/nginx
     chmod +x /etc/init.d/nginx
     update-rc.d nginx defaults 
-    apt-get install software-properties-common 
-    apt-get install ffmpeg
+    apt-get install -y software-properties-common 
+    apt-get install -y ffmpeg
     sudo apt-add-repository ppa:jon-severinsson/ffmpeg
     apt-get update
-    apt-get install curl
+    apt-get install -y curl
     wget https://raw.githubusercontent.com/AriieelEsteban/restream/master/nginx.conf -O /usr/local/nginx/conf/nginx.conf
     chown -R www-data:www-data /usr/local/nginx/html
     sudo apt-get install stunnel4 -y
