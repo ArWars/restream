@@ -23,7 +23,7 @@ Este sistema esta creado para poder restremear desde tu OBS a twitch, facebook, 
     rm nginx-1.12.2.tar.gz
     rm master.tar.gz
     cd nginx-1.12.2
-    ./configure --with-http_ssl_module --without-http_gzip_module --add-module=../nginx-rtmp-module-master --with-http_secure_link_module
+    ./configure --with-http_ssl_module --without-http_gzip_module --add-module=../nginx-rtmp-module-master --with-http_secure_link_module --with-http_v2_module
     make && make install
     cd /usr/local/nginx
     ls
