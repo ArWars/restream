@@ -5,9 +5,7 @@ Este sistema esta creado para poder restremear desde tu OBS a twitch, facebook, 
 ### Requisitos
 * Ubuntu >= 16.04 
 
-### Caracteristicas
-* Administre sus Lineas(Clientes), **cree**, **extienda**, **finalice** a sus clientes. 
-### Instalación Automatica del Panel
+### Instalación Automatica del Script
 
 <details><summary><b>Como Instalar?</b></summary>
 
